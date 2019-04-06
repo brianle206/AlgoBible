@@ -12,7 +12,12 @@ function StrDecode(string){
   var nums = string.split("")
   var words = [];
   var long = ""
-  nums.forEach((item) => long = long.concat(splitStr(item)))
+  let keep = false
+  while(keep){
+    nums.forEach((item) => long = long.concat(splitStr(item)))
+
+  }
+
   console.log(long)
 
   console.log(makeAlpha())

@@ -22,7 +22,7 @@
 
 function UniqueWays(steps){
   if(steps<= 1){ return 1; }
-  else {return UniqueWays(steps - 1) + UniqueWays(steps -2) }
+  else {return (UniqueWays(steps - 1) + UniqueWays(steps -2)) }
 }
 
 
